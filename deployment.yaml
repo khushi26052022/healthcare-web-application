@@ -13,7 +13,7 @@ spec:
         app: analytics-app
     spec:
       containers:
-      - name: analytics-app
-        image: yourdockerhub/analytics-app:latest
+      - name: website
+        image: khushi26052022/website:latest
         ports:
         - containerPort: 80
